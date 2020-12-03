@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #1f2235;
+    font-family: "Baloo Tamma 2",cursive;
+}
+.m-heading {
+    font-family: "Roboto Slab",serif;
+}
+.navigation-link {
+    border: 2px solid transparent;
+
+}
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.empty {
+    height: 200px;
+    width: 100px;
+}
+.empty1 {
+    height: 300px;
+    width: 100px;
+}
+#about {
+    background: #313552;
+    border-radius: 0.5rem;
+}
+#social_media {
+    background-color: #313552;
+    border-radius: 00.5rem;
+}
+.media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
